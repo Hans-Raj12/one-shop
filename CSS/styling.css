@@ -1,0 +1,82 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff; /* White background for header */
+    border-bottom: 1px solid #e0e0e0; /* Light border */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #007BFF; /* Blue links */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #e0e0e0; /* Light hover effect */
+    border-radius: 5px;
+}
+
+/* Main Content Area */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Product Card Styles */
+.product-card {
+    background-color: #ffffff; /* White background for product cards */
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    width: calc(33% - 30px); /* Adjust width for three cards per row */
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Button Styles */
+.button {
+    background-color: #007BFF; /* Primary button color */
+    color: #ffffff; /* White text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff; /* White background for footer */
+    border-top: 1px solid #e0e0e0; /* Light border */
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}

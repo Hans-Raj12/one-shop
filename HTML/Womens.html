@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/CSS/HomePage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+    <title>ONE SHOP</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/Images/Logo-removebg-preview.png"
+    />
+  </head>
+  <body>
+    <div class="ml-3 mr-3">
+      <!-- Content here -->
+      <header>
+        <!-- Navbar content -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar_cont">
+          <img src="/Images/Logo-removebg-preview.png" alt="" class="logo" />
+          <a class="navbar-brand" href="HomePage.html">ONE SHOP</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="HomePage.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Mens.html">Mens </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Womens.html"
+                  >Womens <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Kids.html">Kids </a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="Cart.html">
+                  <img
+                    src="/Images/cart-icon-png-white-19.jpg"
+                    alt=""
+                    class="cart"
+                    style="width: 30px; height: 30px" />
+                  <i class="fas fa-shopping-cart"> </i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="row" style="margin-top: 10px; margin-bottom: 10px">
+        <div
+          class="col-md-2"
+          style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px"
+        >
+          <div class="filter-system">
+            <h5>Filter By</h5>
+            <div class="form-group">
+              <label for="priceRange">Price Range</label>
+              <select class="form-control" id="priceRange">
+                <option value="">Select Price Range</option>
+                <option value="0-100">0-100</option>
+                <option value="101-200">101-200</option>
+                <option value="201-300">201-300</option>
+                <option value="301-400">301-400</option>
+                <option value="401-500">401-500</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="brand">Brand</label>
+              <select class="form-control" id="brand">
+                <option value="">Select Brand</option>
+                <option value="Nike">Nike</option>
+                <option value="Adidas">Adidas</option>
+                <option value="Reebok">Reebok</option>
+                <option value="Puma">Puma</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="size">Size</label>
+              <select class="form-control" id="size">
+                <option value="">Select Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+            </div>
+            <button type="button" class="btn btn-primary">Apply Filter</button>
+          </div>
+        </div>
+        <div
+          class="col-md-9"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            justify-content: space-between;
+          "
+        >
+          <div
+            class="row"
+            style="margin-top: 10px; margin-bottom: 10px; margin-left: 20px"
+          >
+            <div class="col-md-4">
+              <div
+                class="card mb-4"
+                style="
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                  border-radius: 10px;
+                  padding: 10px;
+                  margin: 10px;
+                "
+              >
+                <a href="ItemPage.html" style="text-decoration: none">
+                  <img
+                    src="/Images/dress.jpg"
+                    class="card-img-top"
+                    alt="Product 1"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Crop Top</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="card mb-4"
+                style="
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                  border-radius: 10px;
+                  padding: 10px;
+                  margin: 10px;
+                "
+              >
+                <a href="ItemPage.html" style="text-decoration: none">
+                  <img
+                    src="/Images/dress.jpg"
+                    class="card-img-top"
+                    alt="Product 2"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Long Dress</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="card mb-4"
+                style="
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                  border-radius: 10px;
+                  padding: 10px;
+                  margin: 10px;
+                "
+              >
+                <a href="ItemPage.html" style="text-decoration: none">
+                  <img
+                    src="/Images/dress.jpg"
+                    class="card-img-top"
+                    alt="Product 3"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Frok</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Add more products here -->
+          </div>
+        </div>
+      </div>
+
+      <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>About Us</h5>
+              <p>
+                E-Shop is your one-stop destination for all your shopping needs.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-light">Home</a></li>
+                <li><a href="#" class="text-light">Products</a></li>
+                <li><a href="#" class="text-light">About</a></li>
+                <li><a href="#" class="text-light">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Contact Us</h5>
+              <address>
+                123 E-Shop Street<br />
+                City, State 12345<br />
+                Email: info@eshop.com<br />
+                Phone: (123) 456-7890
+              </address>
+            </div>
+          </div>
+          <hr />
+          <div class="text-center">
+            <p>&copy; 2023 E-Shop. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

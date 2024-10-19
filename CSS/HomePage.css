@@ -1,0 +1,99 @@
+
+
+.val :hover{
+  transform: scale(1.03) ;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+ 
+}
+.main_container{
+  display: block;padding: 10px; margin-right: 10px; margin-left: 10px;
+}
+.navbar_cont{
+  
+  background-color: #e3f2fd;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner_cont{
+  margin-top: 10px; margin-left: 10px; margin-right: 10px; 
+  border: 1px solid #343a40;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner_cont_innerCrousal {
+  max-height: 60%;
+}
+.banner_cont img{
+  height: 600px; border-radius: 10px;  
+}
+.category_cont{
+  display: flex; justify-content: space-between;
+}
+.category_cont a{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #343a40;
+}
+.category_cont img{
+  width: 70px; height: 70px; border-radius: 50%;
+}
+.category_cont_caption{
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+}
+.tranding_card{
+  height : 270px;
+}
+.tranding_card img{
+  border-radius: 10px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              height: 270px;
+}
+.tranding_card p{
+  font-family: 'Times New Roman', Times, serif;
+              font-size: 1.2rem;
+              color: rgb(255, 0, 0);
+              margin-top: 10px;
+}
+.Recommanded_card{
+  height : 350px;
+}
+.Recommanded_card img{
+  border-radius: 10px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              height: 350px;
+}
+.Recommanded_card p{
+  
+  font-family: 'Times New Roman', Times, serif;
+              font-size: 1.2rem;
+              color: rgb(255, 0, 0);
+              margin-top: 10px;
+}
+.Recommanded_card span{
+  font-family: 'Times New Roman', Times, serif;
+              font-size: 1.2rem;
+              color: rgb(0, 0, 0);
+              margin-top: 10px;
+}
+p{
+  text-decoration: none;
+}
+p:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+a, a:hover, a:focus, a:active, a:visited {
+  text-decoration: none;
+  color: black;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+}
