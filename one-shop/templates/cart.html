@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSS/HomePage.css" >
+    <link rel="stylesheet" href="{{url_for('static',filename='css/HomePage.css')}}" >
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styling.css')}}" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
     <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
     <title>ONE SHOP</title>
-    <link rel="icon" type="image/x-icon" href="/Images/Logo-removebg-preview.png">
+    <link rel="icon" type="image/x-icon" href="{{url_for('static',filename='images/Logo-removebg-preview.png')}}">
    
    <style>
       body {
@@ -50,8 +51,8 @@
     <header>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar_cont">
-            <img src="/Images/Logo-removebg-preview.png" alt="" class="logo">
-            <a class="navbar-brand" href="HomePage.html">ONE SHOP</a>
+            <img src="{{url_for('static',filename='images/Logo-removebg-preview.png')}}" alt="" class="logo">
+            <a class="navbar-brand" href="/">ONE SHOP</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,24 +60,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                  <a class="nav-link" href="HomePage.html">Home </a>
+                  <a class="nav-link" href="/">Home </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Mens.html">Mens</a>
+                  <a class="nav-link" href="/mens">Mens</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Womens.html">Womens</a>
+                  <a class="nav-link" href="/womens">Womens</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Kids.html">Kids</a>
+                  <a class="nav-link" href="/kids">Kids</a>
                 </li>
                 
               </ul>
              
               <ul class="navbar-nav ">
                 <li class="nav-item">
-                  <a class="nav-link" href="Cart.html">
-                    <img src="/Images/cart-icon-png-white-19.jpg" alt="" class="cart" style="width: 30px;
+                  <a class="nav-link" href="/cart">
+                    <img src="{{url_for('static',filename='images/cart-icon-png-white-19.jpg')}}" alt="" class="cart" style="width: 30px;
                     height: 30px">
                     </a> 
               </li>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="/CSS/HomePage.css" >
+     <link rel="stylesheet" href="{{url_for('static',filename='css/HomePage.css')}}" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -19,7 +19,7 @@
     <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
     <title>ONE SHOP</title>
-    <link rel="icon" type="image/x-icon" href="/Images/Logo-removebg-preview.png">
+    <link rel="icon" type="image/x-icon" href="{{url_for('static',filename='images/Logo-removebg-preview.png')}}">
 
   </head>
   <body>
@@ -28,8 +28,8 @@
       <header>
         <!-- Navbar content -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar_cont">
-          <img src="/Images/Logo-removebg-preview.png" alt="" class="logo">
-          <a class="navbar-brand" href="HomePage.html">ONE SHOP</a>
+          <img src="{{url_for('static',filename='images/Logo-removebg-preview.png')}}" alt="" class="logo">
+          <a class="navbar-brand" href="/">ONE SHOP</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,16 +37,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="HomePage.html">Home </a>
+                <a class="nav-link" href="/">Home </a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="Mens.html">Mens <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="/mens">Mens <span class="sr-only">(current)</span> </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Womens.html">Womens</a>
+                <a class="nav-link" href="/womens">Womens</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link " href="Kids.html">Kids </a>
+                <a class="nav-link " href="/kids">Kids </a>
               </li>
               
             </ul>
@@ -56,8 +56,8 @@
             </form>
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link" href="Cart.html">
-                  <img src="/Images/cart-icon-png-white-19.jpg" alt="" class="cart" style="width: 30px;
+                <a class="nav-link" href="/cart">
+                  <img src="{{url_for('static',filename='images/cart-icon-png-white-19.jpg')}}" alt="" class="cart" style="width: 30px;
                   height: 30px">
                   <i class="fas fa-shopping-cart">
                    
@@ -150,8 +150,8 @@
                 margin: 10px;
                     
                 ">
-                  <a href="ItemPage.html" style="text-decoration: none;">                  
-                  <img src="/Images/man.jpg" class="card-img-top" alt="Product 1">
+                  <a href="/items" style="text-decoration: none;">                  
+                  <img src="{{url_for('static',filename='images/man.jpg')}}" class="card-img-top" alt="Product 1">
                   <div class="card-body">
                     <h5 class="card-title">T-Shirt</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -169,8 +169,8 @@
                 margin: 10px;
                     
                 ">
-                  <a href="ItemPage.html" style="text-decoration: none;">                  
-                    <img src="/Images/man.jpg" class="card-img-top" alt="Product 2">
+                  <a href="/items" style="text-decoration: none;">                  
+                    <img src="{{url_for('static',filename='images/man.jpg')}}" class="card-img-top" alt="Product 2">
                     <div class="card-body">
                       <h5 class="card-title">Casual Shirt</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -187,8 +187,8 @@
                 margin: 10px;
                     
                 ">
-                  <a href="ItemPage.html" style="text-decoration: none;">                  
-                    <img src="/Images/man.jpg" class="card-img-top" alt="Product 3">
+                  <a href="/items" style="text-decoration: none;">                  
+                    <img src="{{url_for('static',filename='images/man.jpg')}}" class="card-img-top" alt="Product 3">
                     <div class="card-body">
                       <h5 class="card-title">Formal Shirt</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
